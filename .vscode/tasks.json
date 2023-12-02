@@ -1,0 +1,43 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "build-cordinator",
+			"command": "go build -buildmode=plugin ../mrapps/wc.go",
+			"options": {
+				"cwd": "${workspaceFolder}/src/main"
+			},
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "build cordinator"
+		},
+		{
+			"type": "shell",
+			"label": "clean",
+			"command": "rm",
+			"options": {
+				"cwd": "${workspaceFolder}/src/main"
+			},
+			"args": [
+				"mr-temp-*",
+				"mr-out-*"
+			],
+			"group": {
+				"kind": "none",
+				"isDefault": false
+			},
+			"detail": "clean dir"
+		},
+		{
+			"label": "clean-and-build",
+			"dependsOn": [
+				// "clean",
+				"build-cordinator"
+			],
+		}
+	]
+}
+

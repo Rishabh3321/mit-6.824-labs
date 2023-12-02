@@ -1,0 +1,445 @@
+*** Cannot find timeout command; proceeding without timeouts.
+*** Starting wc test.
+Created tasks  [{10 1 0 ../pg-being_ernest.txt 0 0 0} {10 2 0 ../pg-dorian_gray.txt 0 0 0} {10 3 0 ../pg-frankenstein.txt 0 0 0} {10 4 0 ../pg-grimm.txt 0 0 0} {10 5 0 ../pg-huckleberry_finn.txt 0 0 0} {10 6 0 ../pg-metamorphosis.txt 0 0 0} {10 7 0 ../pg-sherlock_holmes.txt 0 0 0} {10 8 0 ../pg-tom_sawyer.txt 0 0 0} {10 9 1  0 0 0} {10 10 1  1 0 0} {10 11 1  2 0 0} {10 12 1  3 0 0} {10 13 1  4 0 0} {10 14 1  5 0 0} {10 15 1  6 0 0} {10 16 1  7 0 0} {10 17 1  8 0 0} {10 18 1  9 0 0}]
+Sending task  &{10 1 0 ../pg-being_ernest.txt 0 1 1}
+Sending task  &{10 2 0 ../pg-dorian_gray.txt 0 1 2}
+Sending task  &{10 3 0 ../pg-frankenstein.txt 0 1 3}
+Reported Task {0 1 0  0 3 0} 
+Sending task  &{10 4 0 ../pg-grimm.txt 0 1 4}
+Reported Task {0 3 0  0 3 0} 
+Sending task  &{10 5 0 ../pg-huckleberry_finn.txt 0 1 5}
+Reported Task {0 2 0  0 3 0} 
+Sending task  &{10 6 0 ../pg-metamorphosis.txt 0 1 6}
+Reported Task {0 6 0  0 3 0} 
+Sending task  &{10 7 0 ../pg-sherlock_holmes.txt 0 1 7}
+Reported Task {0 4 0  0 3 0} 
+Sending task  &{10 8 0 ../pg-tom_sawyer.txt 0 1 8}
+Reported Task {0 5 0  0 3 0} 
+Waiting for 1 second
+Reported Task {0 8 0  0 3 0} 
+Waiting for 1 second
+Reported Task {0 7 0  0 3 0} 
+Waiting for 1 second
+Sending task  &{10 9 1  0 1 9}
+Files to read  [mr-temp-0-1 mr-temp-0-2 mr-temp-0-3 mr-temp-0-4 mr-temp-0-5 mr-temp-0-6 mr-temp-0-7 mr-temp-0-8]
+Reported Task {0 9 0  0 3 0} 
+Sending task  &{10 10 1  1 1 10}
+Files to read  [mr-temp-1-1 mr-temp-1-2 mr-temp-1-3 mr-temp-1-4 mr-temp-1-5 mr-temp-1-6 mr-temp-1-7 mr-temp-1-8]
+Reported Task {0 10 0  0 3 0} 
+Sending task  &{10 11 1  2 1 11}
+Files to read  [mr-temp-2-1 mr-temp-2-2 mr-temp-2-3 mr-temp-2-4 mr-temp-2-5 mr-temp-2-6 mr-temp-2-7 mr-temp-2-8]
+Sending task  &{10 12 1  3 1 12}
+Files to read  [mr-temp-3-1 mr-temp-3-2 mr-temp-3-3 mr-temp-3-4 mr-temp-3-5 mr-temp-3-6 mr-temp-3-7 mr-temp-3-8]
+Reported Task {0 12 0  0 3 0} 
+Sending task  &{10 13 1  4 1 13}
+Sending task  &{10 14 1  5 1 14}
+Files to read  [mr-temp-4-1 mr-temp-4-2 mr-temp-4-3 mr-temp-4-4 mr-temp-4-5 mr-temp-4-6 mr-temp-4-7 mr-temp-4-8]
+Files to read  [mr-temp-5-1 mr-temp-5-2 mr-temp-5-3 mr-temp-5-4 mr-temp-5-5 mr-temp-5-6 mr-temp-5-7 mr-temp-5-8]
+Reported Task {0 11 0  0 3 0} 
+Sending task  &{10 15 1  6 1 15}
+Files to read  [mr-temp-6-1 mr-temp-6-2 mr-temp-6-3 mr-temp-6-4 mr-temp-6-5 mr-temp-6-6 mr-temp-6-7 mr-temp-6-8]
+Reported Task {0 14 0  0 3 0} 
+Sending task  &{10 16 1  7 1 16}
+Files to read  [mr-temp-7-1 mr-temp-7-2 mr-temp-7-3 mr-temp-7-4 mr-temp-7-5 mr-temp-7-6 mr-temp-7-7 mr-temp-7-8]
+Reported Task {0 13 0  0 3 0} 
+Sending task  &{10 17 1  8 1 17}
+Files to read  [mr-temp-8-1 mr-temp-8-2 mr-temp-8-3 mr-temp-8-4 mr-temp-8-5 mr-temp-8-6 mr-temp-8-7 mr-temp-8-8]
+Reported Task {0 15 0  0 3 0} 
+Sending task  &{10 18 1  9 1 18}
+Files to read  [mr-temp-9-1 mr-temp-9-2 mr-temp-9-3 mr-temp-9-4 mr-temp-9-5 mr-temp-9-6 mr-temp-9-7 mr-temp-9-8]
+Reported Task {0 16 0  0 3 0} 
+Waiting for 1 second
+Reported Task {0 17 0  0 3 0} 
+Waiting for 1 second
+Reported Task {0 18 0  0 3 0} 
+All tasks are done, closing the server
+--- wc test: PASS
+*** Starting indexer test.
+Created tasks  [{10 1 0 ../pg-being_ernest.txt 0 0 0} {10 2 0 ../pg-dorian_gray.txt 0 0 0} {10 3 0 ../pg-frankenstein.txt 0 0 0} {10 4 0 ../pg-grimm.txt 0 0 0} {10 5 0 ../pg-huckleberry_finn.txt 0 0 0} {10 6 0 ../pg-metamorphosis.txt 0 0 0} {10 7 0 ../pg-sherlock_holmes.txt 0 0 0} {10 8 0 ../pg-tom_sawyer.txt 0 0 0} {10 9 1  0 0 0} {10 10 1  1 0 0} {10 11 1  2 0 0} {10 12 1  3 0 0} {10 13 1  4 0 0} {10 14 1  5 0 0} {10 15 1  6 0 0} {10 16 1  7 0 0} {10 17 1  8 0 0} {10 18 1  9 0 0}]
+Sending task  &{10 1 0 ../pg-being_ernest.txt 0 1 1}
+Sending task  &{10 2 0 ../pg-dorian_gray.txt 0 1 2}
+Reported Task {0 1 0  0 3 0} 
+Sending task  &{10 3 0 ../pg-frankenstein.txt 0 1 3}
+Reported Task {0 2 0  0 3 0} 
+Sending task  &{10 4 0 ../pg-grimm.txt 0 1 4}
+Reported Task {0 3 0  0 3 0} 
+Sending task  &{10 5 0 ../pg-huckleberry_finn.txt 0 1 5}
+Reported Task {0 4 0  0 3 0} 
+Sending task  &{10 6 0 ../pg-metamorphosis.txt 0 1 6}
+Reported Task {0 6 0  0 3 0} 
+Sending task  &{10 7 0 ../pg-sherlock_holmes.txt 0 1 7}
+Reported Task {0 5 0  0 3 0} 
+Sending task  &{10 8 0 ../pg-tom_sawyer.txt 0 1 8}
+Reported Task {0 8 0  0 3 0} 
+Reported Task {0 7 0  0 3 0} 
+Sending task  &{10 9 1  0 1 9}
+Waiting for 1 second
+Files to read  [mr-temp-0-1 mr-temp-0-2 mr-temp-0-3 mr-temp-0-4 mr-temp-0-5 mr-temp-0-6 mr-temp-0-7 mr-temp-0-8]
+Reported Task {0 9 0  0 3 0} 
+Sending task  &{10 10 1  1 1 10}
+Files to read  [mr-temp-1-1 mr-temp-1-2 mr-temp-1-3 mr-temp-1-4 mr-temp-1-5 mr-temp-1-6 mr-temp-1-7 mr-temp-1-8]
+Reported Task {0 10 0  0 3 0} 
+Sending task  &{10 11 1  2 1 11}
+Files to read  [mr-temp-2-1 mr-temp-2-2 mr-temp-2-3 mr-temp-2-4 mr-temp-2-5 mr-temp-2-6 mr-temp-2-7 mr-temp-2-8]
+Reported Task {0 11 0  0 3 0} 
+Sending task  &{10 12 1  3 1 12}
+Files to read  [mr-temp-3-1 mr-temp-3-2 mr-temp-3-3 mr-temp-3-4 mr-temp-3-5 mr-temp-3-6 mr-temp-3-7 mr-temp-3-8]
+Reported Task {0 12 0  0 3 0} 
+Sending task  &{10 13 1  4 1 13}
+Files to read  [mr-temp-4-1 mr-temp-4-2 mr-temp-4-3 mr-temp-4-4 mr-temp-4-5 mr-temp-4-6 mr-temp-4-7 mr-temp-4-8]
+Reported Task {0 13 0  0 3 0} 
+Sending task  &{10 14 1  5 1 14}
+Files to read  [mr-temp-5-1 mr-temp-5-2 mr-temp-5-3 mr-temp-5-4 mr-temp-5-5 mr-temp-5-6 mr-temp-5-7 mr-temp-5-8]
+Reported Task {0 14 0  0 3 0} 
+Sending task  &{10 15 1  6 1 15}
+Files to read  [mr-temp-6-1 mr-temp-6-2 mr-temp-6-3 mr-temp-6-4 mr-temp-6-5 mr-temp-6-6 mr-temp-6-7 mr-temp-6-8]
+Reported Task {0 15 0  0 3 0} 
+Sending task  &{10 16 1  7 1 16}
+Files to read  [mr-temp-7-1 mr-temp-7-2 mr-temp-7-3 mr-temp-7-4 mr-temp-7-5 mr-temp-7-6 mr-temp-7-7 mr-temp-7-8]
+Reported Task {0 16 0  0 3 0} 
+Sending task  &{10 17 1  8 1 17}
+Files to read  [mr-temp-8-1 mr-temp-8-2 mr-temp-8-3 mr-temp-8-4 mr-temp-8-5 mr-temp-8-6 mr-temp-8-7 mr-temp-8-8]
+Reported Task {0 17 0  0 3 0} 
+Sending task  &{10 18 1  9 1 18}
+Files to read  [mr-temp-9-1 mr-temp-9-2 mr-temp-9-3 mr-temp-9-4 mr-temp-9-5 mr-temp-9-6 mr-temp-9-7 mr-temp-9-8]
+Reported Task {0 18 0  0 3 0} 
+All tasks are done, closing the server
+--- indexer test: PASS
+*** Starting map parallelism test.
+Created tasks  [{10 1 0 ../pg-being_ernest.txt 0 0 0} {10 2 0 ../pg-dorian_gray.txt 0 0 0} {10 3 0 ../pg-frankenstein.txt 0 0 0} {10 4 0 ../pg-grimm.txt 0 0 0} {10 5 0 ../pg-huckleberry_finn.txt 0 0 0} {10 6 0 ../pg-metamorphosis.txt 0 0 0} {10 7 0 ../pg-sherlock_holmes.txt 0 0 0} {10 8 0 ../pg-tom_sawyer.txt 0 0 0} {10 9 1  0 0 0} {10 10 1  1 0 0} {10 11 1  2 0 0} {10 12 1  3 0 0} {10 13 1  4 0 0} {10 14 1  5 0 0} {10 15 1  6 0 0} {10 16 1  7 0 0} {10 17 1  8 0 0} {10 18 1  9 0 0}]
+Sending task  &{10 1 0 ../pg-being_ernest.txt 0 1 1}
+Sending task  &{10 2 0 ../pg-dorian_gray.txt 0 1 2}
+Reported Task {0 1 0  0 3 0} 
+Reported Task {0 2 0  0 3 0} 
+Sending task  &{10 3 0 ../pg-frankenstein.txt 0 1 3}
+Sending task  &{10 4 0 ../pg-grimm.txt 0 1 4}
+Reported Task {0 4 0  0 3 0} 
+Reported Task {0 3 0  0 3 0} 
+Sending task  &{10 5 0 ../pg-huckleberry_finn.txt 0 1 5}
+Sending task  &{10 6 0 ../pg-metamorphosis.txt 0 1 6}
+Reported Task {0 6 0  0 3 0} 
+Reported Task {0 5 0  0 3 0} 
+Sending task  &{10 7 0 ../pg-sherlock_holmes.txt 0 1 7}
+Sending task  &{10 8 0 ../pg-tom_sawyer.txt 0 1 8}
+Reported Task {0 8 0  0 3 0} 
+Reported Task {0 7 0  0 3 0} 
+Sending task  &{10 9 1  0 1 9}
+Waiting for 1 second
+Files to read  [mr-temp-0-1 mr-temp-0-2 mr-temp-0-3 mr-temp-0-4 mr-temp-0-5 mr-temp-0-6 mr-temp-0-7 mr-temp-0-8]
+Reported Task {0 9 0  0 3 0} 
+Sending task  &{10 10 1  1 1 10}
+Files to read  [mr-temp-1-1 mr-temp-1-2 mr-temp-1-3 mr-temp-1-4 mr-temp-1-5 mr-temp-1-6 mr-temp-1-7 mr-temp-1-8]
+Reported Task {0 10 0  0 3 0} 
+Sending task  &{10 11 1  2 1 11}
+Files to read  [mr-temp-2-1 mr-temp-2-2 mr-temp-2-3 mr-temp-2-4 mr-temp-2-5 mr-temp-2-6 mr-temp-2-7 mr-temp-2-8]
+Reported Task {0 11 0  0 3 0} 
+Sending task  &{10 12 1  3 1 12}
+Files to read  [mr-temp-3-1 mr-temp-3-2 mr-temp-3-3 mr-temp-3-4 mr-temp-3-5 mr-temp-3-6 mr-temp-3-7 mr-temp-3-8]
+Reported Task {0 12 0  0 3 0} 
+Sending task  &{10 13 1  4 1 13}
+Files to read  [mr-temp-4-1 mr-temp-4-2 mr-temp-4-3 mr-temp-4-4 mr-temp-4-5 mr-temp-4-6 mr-temp-4-7 mr-temp-4-8]
+Reported Task {0 13 0  0 3 0} 
+Sending task  &{10 14 1  5 1 14}
+Files to read  [mr-temp-5-1 mr-temp-5-2 mr-temp-5-3 mr-temp-5-4 mr-temp-5-5 mr-temp-5-6 mr-temp-5-7 mr-temp-5-8]
+Reported Task {0 14 0  0 3 0} 
+Sending task  &{10 15 1  6 1 15}
+Files to read  [mr-temp-6-1 mr-temp-6-2 mr-temp-6-3 mr-temp-6-4 mr-temp-6-5 mr-temp-6-6 mr-temp-6-7 mr-temp-6-8]
+Reported Task {0 15 0  0 3 0} 
+Sending task  &{10 16 1  7 1 16}
+Files to read  [mr-temp-7-1 mr-temp-7-2 mr-temp-7-3 mr-temp-7-4 mr-temp-7-5 mr-temp-7-6 mr-temp-7-7 mr-temp-7-8]
+Reported Task {0 16 0  0 3 0} 
+Sending task  &{10 17 1  8 1 17}
+Files to read  [mr-temp-8-1 mr-temp-8-2 mr-temp-8-3 mr-temp-8-4 mr-temp-8-5 mr-temp-8-6 mr-temp-8-7 mr-temp-8-8]
+Reported Task {0 17 0  0 3 0} 
+Sending task  &{10 18 1  9 1 18}
+Files to read  [mr-temp-9-1 mr-temp-9-2 mr-temp-9-3 mr-temp-9-4 mr-temp-9-5 mr-temp-9-6 mr-temp-9-7 mr-temp-9-8]
+Reported Task {0 18 0  0 3 0} 
+--- map parallelism test: PASS
+All tasks are done, closing the server
+*** Starting reduce parallelism test.
+Created tasks  [{10 1 0 ../pg-being_ernest.txt 0 0 0} {10 2 0 ../pg-dorian_gray.txt 0 0 0} {10 3 0 ../pg-frankenstein.txt 0 0 0} {10 4 0 ../pg-grimm.txt 0 0 0} {10 5 0 ../pg-huckleberry_finn.txt 0 0 0} {10 6 0 ../pg-metamorphosis.txt 0 0 0} {10 7 0 ../pg-sherlock_holmes.txt 0 0 0} {10 8 0 ../pg-tom_sawyer.txt 0 0 0} {10 9 1  0 0 0} {10 10 1  1 0 0} {10 11 1  2 0 0} {10 12 1  3 0 0} {10 13 1  4 0 0} {10 14 1  5 0 0} {10 15 1  6 0 0} {10 16 1  7 0 0} {10 17 1  8 0 0} {10 18 1  9 0 0}]
+Sending task  &{10 1 0 ../pg-being_ernest.txt 0 1 1}
+Sending task  &{10 2 0 ../pg-dorian_gray.txt 0 1 2}
+Reported Task {0 1 0  0 3 0} 
+Reported Task {0 2 0  0 3 0} 
+Sending task  &{10 3 0 ../pg-frankenstein.txt 0 1 3}
+Sending task  &{10 4 0 ../pg-grimm.txt 0 1 4}
+Reported Task {0 3 0  0 3 0} 
+Reported Task {0 4 0  0 3 0} 
+Sending task  &{10 5 0 ../pg-huckleberry_finn.txt 0 1 5}
+Sending task  &{10 6 0 ../pg-metamorphosis.txt 0 1 6}
+Reported Task {0 6 0  0 3 0} 
+Sending task  &{10 7 0 ../pg-sherlock_holmes.txt 0 1 7}
+Reported Task {0 5 0  0 3 0} 
+Sending task  &{10 8 0 ../pg-tom_sawyer.txt 0 1 8}
+Reported Task {0 7 0  0 3 0} 
+Waiting for 1 second
+Reported Task {0 8 0  0 3 0} 
+Sending task  &{10 9 1  0 1 9}
+Files to read  [mr-temp-0-1 mr-temp-0-2 mr-temp-0-3 mr-temp-0-4 mr-temp-0-5 mr-temp-0-6 mr-temp-0-7 mr-temp-0-8]
+Sending task  &{10 10 1  1 1 10}
+Files to read  [mr-temp-1-1 mr-temp-1-2 mr-temp-1-3 mr-temp-1-4 mr-temp-1-5 mr-temp-1-6 mr-temp-1-7 mr-temp-1-8]
+Reported Task {0 9 0  0 3 0} 
+Sending task  &{10 11 1  2 1 11}
+Files to read  [mr-temp-2-1 mr-temp-2-2 mr-temp-2-3 mr-temp-2-4 mr-temp-2-5 mr-temp-2-6 mr-temp-2-7 mr-temp-2-8]
+Reported Task {0 10 0  0 3 0} 
+Sending task  &{10 12 1  3 1 12}
+Files to read  [mr-temp-3-1 mr-temp-3-2 mr-temp-3-3 mr-temp-3-4 mr-temp-3-5 mr-temp-3-6 mr-temp-3-7 mr-temp-3-8]
+Reported Task {0 11 0  0 3 0} 
+Sending task  &{10 13 1  4 1 13}
+Files to read  [mr-temp-4-1 mr-temp-4-2 mr-temp-4-3 mr-temp-4-4 mr-temp-4-5 mr-temp-4-6 mr-temp-4-7 mr-temp-4-8]
+Reported Task {0 12 0  0 3 0} 
+Sending task  &{10 14 1  5 1 14}
+Files to read  [mr-temp-5-1 mr-temp-5-2 mr-temp-5-3 mr-temp-5-4 mr-temp-5-5 mr-temp-5-6 mr-temp-5-7 mr-temp-5-8]
+Reported Task {0 13 0  0 3 0} 
+Sending task  &{10 15 1  6 1 15}
+Files to read  [mr-temp-6-1 mr-temp-6-2 mr-temp-6-3 mr-temp-6-4 mr-temp-6-5 mr-temp-6-6 mr-temp-6-7 mr-temp-6-8]
+Reported Task {0 14 0  0 3 0} 
+Sending task  &{10 16 1  7 1 16}
+Files to read  [mr-temp-7-1 mr-temp-7-2 mr-temp-7-3 mr-temp-7-4 mr-temp-7-5 mr-temp-7-6 mr-temp-7-7 mr-temp-7-8]
+Reported Task {0 15 0  0 3 0} 
+Sending task  &{10 17 1  8 1 17}
+Files to read  [mr-temp-8-1 mr-temp-8-2 mr-temp-8-3 mr-temp-8-4 mr-temp-8-5 mr-temp-8-6 mr-temp-8-7 mr-temp-8-8]
+Reported Task {0 16 0  0 3 0} 
+Sending task  &{10 18 1  9 1 18}
+Files to read  [mr-temp-9-1 mr-temp-9-2 mr-temp-9-3 mr-temp-9-4 mr-temp-9-5 mr-temp-9-6 mr-temp-9-7 mr-temp-9-8]
+Reported Task {0 17 0  0 3 0} 
+Waiting for 1 second
+Waiting for 1 second
+Reported Task {0 18 0  0 3 0} 
+--- reduce parallelism test: PASS
+All tasks are done, closing the server
+*** Starting job count test.
+Created tasks  [{10 1 0 ../pg-being_ernest.txt 0 0 0} {10 2 0 ../pg-dorian_gray.txt 0 0 0} {10 3 0 ../pg-frankenstein.txt 0 0 0} {10 4 0 ../pg-grimm.txt 0 0 0} {10 5 0 ../pg-huckleberry_finn.txt 0 0 0} {10 6 0 ../pg-metamorphosis.txt 0 0 0} {10 7 0 ../pg-sherlock_holmes.txt 0 0 0} {10 8 0 ../pg-tom_sawyer.txt 0 0 0} {10 9 1  0 0 0} {10 10 1  1 0 0} {10 11 1  2 0 0} {10 12 1  3 0 0} {10 13 1  4 0 0} {10 14 1  5 0 0} {10 15 1  6 0 0} {10 16 1  7 0 0} {10 17 1  8 0 0} {10 18 1  9 0 0}]
+Sending task  &{10 1 0 ../pg-being_ernest.txt 0 1 1}
+Sending task  &{10 2 0 ../pg-dorian_gray.txt 0 1 2}
+Reported Task {0 1 0  0 3 0} 
+Reported Task {0 2 0  0 3 0} 
+Sending task  &{10 3 0 ../pg-frankenstein.txt 0 1 3}
+Sending task  &{10 4 0 ../pg-grimm.txt 0 1 4}
+Reported Task {0 4 0  0 3 0} 
+Reported Task {0 3 0  0 3 0} 
+Sending task  &{10 5 0 ../pg-huckleberry_finn.txt 0 1 5}
+Sending task  &{10 6 0 ../pg-metamorphosis.txt 0 1 6}
+Reported Task {0 6 0  0 3 0} 
+Sending task  &{10 7 0 ../pg-sherlock_holmes.txt 0 1 7}
+Reported Task {0 5 0  0 3 0} 
+Sending task  &{10 8 0 ../pg-tom_sawyer.txt 0 1 8}
+Reported Task {0 8 0  0 3 0} 
+Reported Task {0 7 0  0 3 0} 
+Sending task  &{10 9 1  0 1 9}
+Waiting for 1 second
+Files to read  [mr-temp-0-1 mr-temp-0-2 mr-temp-0-3 mr-temp-0-4 mr-temp-0-5 mr-temp-0-6 mr-temp-0-7 mr-temp-0-8]
+Reported Task {0 9 0  0 3 0} 
+Sending task  &{10 10 1  1 1 10}
+Files to read  [mr-temp-1-1 mr-temp-1-2 mr-temp-1-3 mr-temp-1-4 mr-temp-1-5 mr-temp-1-6 mr-temp-1-7 mr-temp-1-8]
+Reported Task {0 10 0  0 3 0} 
+Sending task  &{10 11 1  2 1 11}
+Files to read  [mr-temp-2-1 mr-temp-2-2 mr-temp-2-3 mr-temp-2-4 mr-temp-2-5 mr-temp-2-6 mr-temp-2-7 mr-temp-2-8]
+Reported Task {0 11 0  0 3 0} 
+Sending task  &{10 12 1  3 1 12}
+Files to read  [mr-temp-3-1 mr-temp-3-2 mr-temp-3-3 mr-temp-3-4 mr-temp-3-5 mr-temp-3-6 mr-temp-3-7 mr-temp-3-8]
+Reported Task {0 12 0  0 3 0} 
+Sending task  &{10 13 1  4 1 13}
+Files to read  [mr-temp-4-1 mr-temp-4-2 mr-temp-4-3 mr-temp-4-4 mr-temp-4-5 mr-temp-4-6 mr-temp-4-7 mr-temp-4-8]
+Reported Task {0 13 0  0 3 0} 
+Sending task  &{10 14 1  5 1 14}
+Files to read  [mr-temp-5-1 mr-temp-5-2 mr-temp-5-3 mr-temp-5-4 mr-temp-5-5 mr-temp-5-6 mr-temp-5-7 mr-temp-5-8]
+Reported Task {0 14 0  0 3 0} 
+Sending task  &{10 15 1  6 1 15}
+Files to read  [mr-temp-6-1 mr-temp-6-2 mr-temp-6-3 mr-temp-6-4 mr-temp-6-5 mr-temp-6-6 mr-temp-6-7 mr-temp-6-8]
+Reported Task {0 15 0  0 3 0} 
+Sending task  &{10 16 1  7 1 16}
+Files to read  [mr-temp-7-1 mr-temp-7-2 mr-temp-7-3 mr-temp-7-4 mr-temp-7-5 mr-temp-7-6 mr-temp-7-7 mr-temp-7-8]
+Reported Task {0 16 0  0 3 0} 
+Sending task  &{10 17 1  8 1 17}
+Files to read  [mr-temp-8-1 mr-temp-8-2 mr-temp-8-3 mr-temp-8-4 mr-temp-8-5 mr-temp-8-6 mr-temp-8-7 mr-temp-8-8]
+Reported Task {0 17 0  0 3 0} 
+Sending task  &{10 18 1  9 1 18}
+Files to read  [mr-temp-9-1 mr-temp-9-2 mr-temp-9-3 mr-temp-9-4 mr-temp-9-5 mr-temp-9-6 mr-temp-9-7 mr-temp-9-8]
+Reported Task {0 18 0  0 3 0} 
+All tasks are done, closing the server
+--- job count test: PASS
+*** Starting early exit test.
+Created tasks  [{10 1 0 ../pg-being_ernest.txt 0 0 0} {10 2 0 ../pg-dorian_gray.txt 0 0 0} {10 3 0 ../pg-frankenstein.txt 0 0 0} {10 4 0 ../pg-grimm.txt 0 0 0} {10 5 0 ../pg-huckleberry_finn.txt 0 0 0} {10 6 0 ../pg-metamorphosis.txt 0 0 0} {10 7 0 ../pg-sherlock_holmes.txt 0 0 0} {10 8 0 ../pg-tom_sawyer.txt 0 0 0} {10 9 1  0 0 0} {10 10 1  1 0 0} {10 11 1  2 0 0} {10 12 1  3 0 0} {10 13 1  4 0 0} {10 14 1  5 0 0} {10 15 1  6 0 0} {10 16 1  7 0 0} {10 17 1  8 0 0} {10 18 1  9 0 0}]
+Sending task  &{10 1 0 ../pg-being_ernest.txt 0 1 1}
+Sending task  &{10 2 0 ../pg-dorian_gray.txt 0 1 2}
+Sending task  &{10 3 0 ../pg-frankenstein.txt 0 1 3}
+Reported Task {0 1 0  0 3 0} 
+Sending task  &{10 4 0 ../pg-grimm.txt 0 1 4}
+Reported Task {0 2 0  0 3 0} 
+Reported Task {0 3 0  0 3 0} 
+Sending task  &{10 5 0 ../pg-huckleberry_finn.txt 0 1 5}
+Sending task  &{10 6 0 ../pg-metamorphosis.txt 0 1 6}
+Reported Task {0 4 0  0 3 0} 
+Sending task  &{10 7 0 ../pg-sherlock_holmes.txt 0 1 7}
+Reported Task {0 6 0  0 3 0} 
+Reported Task {0 5 0  0 3 0} 
+Sending task  &{10 8 0 ../pg-tom_sawyer.txt 0 1 8}
+Waiting for 1 second
+Reported Task {0 7 0  0 3 0} 
+Reported Task {0 8 0  0 3 0} 
+Sending task  &{10 9 1  0 1 9}
+Waiting for 1 second
+Files to read  [mr-temp-0-1 mr-temp-0-2 mr-temp-0-3 mr-temp-0-4 mr-temp-0-5 mr-temp-0-6 mr-temp-0-7 mr-temp-0-8]
+Reported Task {0 9 0  0 3 0} 
+Sending task  &{10 10 1  1 1 10}
+Files to read  [mr-temp-1-1 mr-temp-1-2 mr-temp-1-3 mr-temp-1-4 mr-temp-1-5 mr-temp-1-6 mr-temp-1-7 mr-temp-1-8]
+Reported Task {0 10 0  0 3 0} 
+Sending task  &{10 11 1  2 1 11}
+Files to read  [mr-temp-2-1 mr-temp-2-2 mr-temp-2-3 mr-temp-2-4 mr-temp-2-5 mr-temp-2-6 mr-temp-2-7 mr-temp-2-8]
+Sending task  &{10 12 1  3 1 12}
+Sending task  &{10 13 1  4 1 13}
+Files to read  [mr-temp-3-1 mr-temp-3-2 mr-temp-3-3 mr-temp-3-4 mr-temp-3-5 mr-temp-3-6 mr-temp-3-7 mr-temp-3-8]
+Files to read  [mr-temp-4-1 mr-temp-4-2 mr-temp-4-3 mr-temp-4-4 mr-temp-4-5 mr-temp-4-6 mr-temp-4-7 mr-temp-4-8]
+Reported Task {0 13 0  0 3 0} 
+Reported Task {0 12 0  0 3 0} 
+Sending task  &{10 14 1  5 1 14}
+Sending task  &{10 15 1  6 1 15}
+Files to read  [mr-temp-5-1 mr-temp-5-2 mr-temp-5-3 mr-temp-5-4 mr-temp-5-5 mr-temp-5-6 mr-temp-5-7 mr-temp-5-8]
+Files to read  [mr-temp-6-1 mr-temp-6-2 mr-temp-6-3 mr-temp-6-4 mr-temp-6-5 mr-temp-6-6 mr-temp-6-7 mr-temp-6-8]
+Reported Task {0 14 0  0 3 0} 
+Sending task  &{10 16 1  7 1 16}
+Files to read  [mr-temp-7-1 mr-temp-7-2 mr-temp-7-3 mr-temp-7-4 mr-temp-7-5 mr-temp-7-6 mr-temp-7-7 mr-temp-7-8]
+Reported Task {0 16 0  0 3 0} 
+Sending task  &{10 17 1  8 1 17}
+Files to read  [mr-temp-8-1 mr-temp-8-2 mr-temp-8-3 mr-temp-8-4 mr-temp-8-5 mr-temp-8-6 mr-temp-8-7 mr-temp-8-8]
+Reported Task {0 17 0  0 3 0} 
+Sending task  &{10 18 1  9 1 18}
+Files to read  [mr-temp-9-1 mr-temp-9-2 mr-temp-9-3 mr-temp-9-4 mr-temp-9-5 mr-temp-9-6 mr-temp-9-7 mr-temp-9-8]
+Reported Task {0 18 0  0 3 0} 
+Waiting for 1 second
+Waiting for 1 second
+Reported Task {0 11 0  0 3 0} 
+Waiting for 1 second
+Waiting for 1 second
+Reported Task {0 15 0  0 3 0} 
+All tasks are done, closing the server
+--- early exit test: PASS
+*** Starting crash test.
+Created tasks  [{10 1 0 ../pg-being_ernest.txt 0 0 0} {10 2 0 ../pg-dorian_gray.txt 0 0 0} {10 3 0 ../pg-frankenstein.txt 0 0 0} {10 4 0 ../pg-grimm.txt 0 0 0} {10 5 0 ../pg-huckleberry_finn.txt 0 0 0} {10 6 0 ../pg-metamorphosis.txt 0 0 0} {10 7 0 ../pg-sherlock_holmes.txt 0 0 0} {10 8 0 ../pg-tom_sawyer.txt 0 0 0} {10 9 1  0 0 0} {10 10 1  1 0 0} {10 11 1  2 0 0} {10 12 1  3 0 0} {10 13 1  4 0 0} {10 14 1  5 0 0} {10 15 1  6 0 0} {10 16 1  7 0 0} {10 17 1  8 0 0} {10 18 1  9 0 0}]
+Sending task  &{10 1 0 ../pg-being_ernest.txt 0 1 1}
+Sending task  &{10 2 0 ../pg-dorian_gray.txt 0 1 2}
+Sending task  &{10 3 0 ../pg-frankenstein.txt 0 1 3}
+Sending task  &{10 4 0 ../pg-grimm.txt 0 1 4}
+Reported Task {0 3 0  0 3 0} 
+Sending task  &{10 5 0 ../pg-huckleberry_finn.txt 0 1 5}
+Reported Task {0 5 0  0 3 0} 
+Sending task  &{10 6 0 ../pg-metamorphosis.txt 0 1 6}
+Reported Task {0 6 0  0 3 0} 
+Sending task  &{10 7 0 ../pg-sherlock_holmes.txt 0 1 7}
+Sending task  &{10 8 0 ../pg-tom_sawyer.txt 0 1 8}
+Waiting for 1 second
+Reported Task {0 8 0  0 3 0} 
+Waiting for 1 second
+Waiting for 1 second
+Waiting for 1 second
+Waiting for 1 second
+Waiting for 1 second
+Waiting for 1 second
+Waiting for 1 second
+Waiting for 1 second
+Waiting for 1 second
+Reported Task {0 7 0  0 3 0} 
+Waiting for 1 second
+Waiting for 1 second
+Waiting for 1 second
+Waiting for 1 second
+Waiting for 1 second
+Waiting for 1 second
+Waiting for 1 second
+Waiting for 1 second
+Waiting for 1 second
+Waiting for 1 second
+Waiting for 1 second
+Waiting for 1 second
+Waiting for 1 second
+Task  {0 2 0  0 0 0}  has timed out
+Task  {0 4 0  0 0 0}  has timed out
+Task  {0 1 0  0 0 0}  has timed out
+Sending task  &{10 1 0 ../pg-being_ernest.txt 0 1 9}
+Sending task  &{10 2 0 ../pg-dorian_gray.txt 0 1 10}
+Reported Task {0 2 0  0 3 0} 
+Reported Task {0 1 0  0 3 0} 
+Sending task  &{10 4 0 ../pg-grimm.txt 0 1 11}
+Waiting for 1 second
+Reported Task {0 4 0  0 3 0} 
+Waiting for 1 second
+Sending task  &{10 9 1  0 1 12}
+Files to read  [mr-temp-0-1 mr-temp-0-2 mr-temp-0-3 mr-temp-0-4 mr-temp-0-5 mr-temp-0-6 mr-temp-0-7 mr-temp-0-8]
+Sending task  &{10 10 1  1 1 13}
+Files to read  [mr-temp-1-1 mr-temp-1-2 mr-temp-1-3 mr-temp-1-4 mr-temp-1-5 mr-temp-1-6 mr-temp-1-7 mr-temp-1-8]
+Sending task  &{10 11 1  2 1 14}
+Files to read  [mr-temp-2-1 mr-temp-2-2 mr-temp-2-3 mr-temp-2-4 mr-temp-2-5 mr-temp-2-6 mr-temp-2-7 mr-temp-2-8]
+Reported Task {0 10 0  0 3 0} 
+Sending task  &{10 12 1  3 1 15}
+Reported Task {0 11 0  0 3 0} 
+Sending task  &{10 13 1  4 1 16}
+Files to read  [mr-temp-3-1 mr-temp-3-2 mr-temp-3-3 mr-temp-3-4 mr-temp-3-5 mr-temp-3-6 mr-temp-3-7 mr-temp-3-8]
+Files to read  [mr-temp-4-1 mr-temp-4-2 mr-temp-4-3 mr-temp-4-4 mr-temp-4-5 mr-temp-4-6 mr-temp-4-7 mr-temp-4-8]
+Reported Task {0 12 0  0 3 0} 
+Sending task  &{10 14 1  5 1 17}
+Files to read  [mr-temp-5-1 mr-temp-5-2 mr-temp-5-3 mr-temp-5-4 mr-temp-5-5 mr-temp-5-6 mr-temp-5-7 mr-temp-5-8]
+Reported Task {0 13 0  0 3 0} 
+Sending task  &{10 15 1  6 1 18}
+Files to read  [mr-temp-6-1 mr-temp-6-2 mr-temp-6-3 mr-temp-6-4 mr-temp-6-5 mr-temp-6-6 mr-temp-6-7 mr-temp-6-8]
+Reported Task {0 15 0  0 3 0} 
+Sending task  &{10 16 1  7 1 19}
+Files to read  [mr-temp-7-1 mr-temp-7-2 mr-temp-7-3 mr-temp-7-4 mr-temp-7-5 mr-temp-7-6 mr-temp-7-7 mr-temp-7-8]
+Reported Task {0 16 0  0 3 0} 
+Sending task  &{10 17 1  8 1 20}
+Files to read  [mr-temp-8-1 mr-temp-8-2 mr-temp-8-3 mr-temp-8-4 mr-temp-8-5 mr-temp-8-6 mr-temp-8-7 mr-temp-8-8]
+Reported Task {0 17 0  0 3 0} 
+Sending task  &{10 18 1  9 1 21}
+Files to read  [mr-temp-9-1 mr-temp-9-2 mr-temp-9-3 mr-temp-9-4 mr-temp-9-5 mr-temp-9-6 mr-temp-9-7 mr-temp-9-8]
+Waiting for 1 second
+Reported Task {0 14 0  0 3 0} 
+Waiting for 1 second
+Waiting for 1 second
+Waiting for 1 second
+Waiting for 1 second
+Waiting for 1 second
+Waiting for 1 second
+Waiting for 1 second
+Waiting for 1 second
+Waiting for 1 second
+Waiting for 1 second
+Waiting for 1 second
+Waiting for 1 second
+Waiting for 1 second
+Waiting for 1 second
+Waiting for 1 second
+Waiting for 1 second
+Waiting for 1 second
+Waiting for 1 second
+Waiting for 1 second
+Waiting for 1 second
+Waiting for 1 second
+Waiting for 1 second
+Waiting for 1 second
+Waiting for 1 second
+Waiting for 1 second
+Waiting for 1 second
+Task  {0 9 1  0 0 0}  has timed out
+Sending task  &{10 9 1  0 1 22}
+Files to read  [mr-temp-0-1 mr-temp-0-2 mr-temp-0-3 mr-temp-0-4 mr-temp-0-5 mr-temp-0-6 mr-temp-0-7 mr-temp-0-8]
+Waiting for 1 second
+Task  {0 18 1  0 0 0}  has timed out
+Sending task  &{10 18 1  9 1 23}
+Files to read  [mr-temp-9-1 mr-temp-9-2 mr-temp-9-3 mr-temp-9-4 mr-temp-9-5 mr-temp-9-6 mr-temp-9-7 mr-temp-9-8]
+Reported Task {0 18 0  0 3 0} 
+Waiting for 1 second
+Waiting for 1 second
+Waiting for 1 second
+Waiting for 1 second
+Waiting for 1 second
+Waiting for 1 second
+Waiting for 1 second
+Waiting for 1 second
+Waiting for 1 second
+Waiting for 1 second
+Waiting for 1 second
+Reported Task {0 9 0  0 3 0} 
+All tasks are done, closing the server
+--- crash test: PASS
+*** PASSED ALL TESTS
